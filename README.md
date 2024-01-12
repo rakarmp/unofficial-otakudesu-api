@@ -13,7 +13,7 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rakarmp/unofficial-otakudesu-api">
 </p>
 
-**Unofficial API of** : https://otakudesu.cam/
+**Unofficial API of** : https://otakudesu.media/
 
 ## Usage
 1. Clone this repository
@@ -48,7 +48,7 @@ __API Version__ : v1
 | /eps/${id} | id | Detail Anime's Episode |
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/rakarmp/unofficial-otakudesu-api/blob/main/LICENSE)
 
 ## Disclaimer
 This project is not affiliated with otakudesu.cam in any way. This project is just a wrapper, so I am not responsible for anything related to the content of the website.
