@@ -249,7 +249,7 @@ exports.animeByGenre = (req, res) => {
         object.id = $(this)
           .find(".col-anime-title > a")
           .attr("href")
-          .replace("https://otakudesu.cam/anime/", "");
+          .replace("https://otakudesu.media/anime/", "");
         object.studio = $(this).find(".col-anime-studio").text();
         object.episode = $(this).find(".col-anime-eps").text();
         object.score = parseFloat($(this).find(".col-anime-rating").text());
@@ -260,7 +260,7 @@ exports.animeByGenre = (req, res) => {
           .each(function () {
             genre_name = $(this).text();
             genre_link = $(this).attr("href");
-            genre_id = genre_link.replace("https://otakudesu.cam/genres/", "");
+            genre_id = genre_link.replace("https://otakudesu.media/genres/", "");
             genreList.push({ genre_name, genre_link, genre_id });
             object.genre_list = genreList;
           });
