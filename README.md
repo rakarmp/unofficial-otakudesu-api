@@ -14,6 +14,8 @@
 </p>
 
 **Unofficial API of** : https://otakudesu.media/
+**Api Documentation** : https://rakarmp.github.io/unofficial-otakudesu-api/
+**Rest API** : https://unofficial-otakudesu-api-me.vercel.app/api/
 
 ## Usage
 1. Clone this repository
