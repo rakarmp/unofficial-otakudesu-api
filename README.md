@@ -1,57 +1,66 @@
-<p align="center"><img src="picture.jpg" width="100" height="100"></p>
+# API Documentation HTML Template
 
-<h1 align="center">Unofficial Otakudesu API</h1>
+### A simple, modern and readable HTML template for APIs documentations
 
-<p align="center">
-<img alt="GitHub issues" src="https://img.shields.io/github/issues/rakarmp/unofficial-otakudesu-api">
-<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/rakarmp/unofficial-otakudesu-api">
-<img alt="GitHub" src="https://img.shields.io/github/license/rakarmp/unofficial-otakudesu-api"> 
-<img alt="GitHub stars" src="https://img.shields.io/github/stars/rakarmp/unofficial-otakudesu-api">
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/rakarmp/unofficial-otakudesu-api">
-<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/rakarmp/unofficial-otakudesu-api">
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rakarmp/unofficial-otakudesu-api">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rakarmp/unofficial-otakudesu-api">
-</p>
+You can take a look with this [DEMO](https://floriannicolas.github.io/API-Documentation-HTML-Template/). \
+Or this other [One Content Column DEMO](https://floriannicolas.github.io/API-Documentation-HTML-Template/one-content-column). 
 
-**Unofficial API of** : https://otakudesu.media/
+## Current version : 1.0.5
 
-## Usage
-1. Clone this repository
-```bash
-git clone https://github.com/rakarmp/unofficial-otakudesu-api.git
+
+### What's new in the latest version : 
+
+- Fix list on 3 content columns `<ul>` and `<ol>`.
+- Removed `jQuery` usage to vanilla js.
+- Update of css fonts.
+- Fix menu with long text.
+- Updated Google Font call.
+- Removed usage of `Roboto Condensed` font.
+- Updated `menu` `data-target` to use `content`.
+- Added `.central-overflow-x` util class to avoid overflows.
+- Added `.break-word` util class to avoir overflows without adding a scrollbar.
+- Added optional `Version` & `Last updated` infos
+- Added responsive menu with `burger icon` menu button. 
+
+
+## Credits
+
+* Google Font (Roboto|Source+Code+Pro)
+* Highlight.js 9.8.0
+* A Creative Common logo: platform by Emily van den Heever from the Noun Project.
+
+## How to use it
+
+This is a simple HTML template, do whatever you want with this !
+
+To use One Content Column Version, don't forget to add ```one-content-column-version``` css class to ```<body>``` like in ```one-content-column.html``` file. 
+
+## Utils CSS class 
+
+If you have an element in central column that overflow on third column, you can add it `central-overflow-x` css class to prevent it.
+
+Example: 
+```html
+<table class="central-overflow-x">...<table>
 ```
-2. Install packages (use `yarn` or `npm`)
-```bash
-npm install
+
+If you doesn't want a scrollbar, you can use `break-word` css class to prevent it.
+
+Example: 
+```html
+<code class="higlighted break-word">http://api.westeros.com/with-a-very-very-very-very-very-long-end-point-url/get<table>
 ```
-3. Start server
-```bash
-npm run dev
-```
 
-## API Documentation
-__Api Path__ : https://localhost:3000/api/</br>
-__API Version__ : v1
 
-| Endpoint | Params | Description |
-| -------- | ------ | -----------|
-| /home | - | Homepage |
-| /complete | - | Complete/Finished Anime |
-| /complete/page/${page} | pageNumber | Complete Pagination |
-| /ongoing | - | Ongoing Anime |
-| /schedule | - | Schedule Anime |
-| /genres | - | Genre List |
-| /genres/${id}/page/${page} | id,pageNumber | Show Anime by Genre |
-| /search/${query} | query | Search Anime |
-| /anime/${id} | id | Detail Anime |
-| /batch/${id} | id | Detail Anime's Batch |
-| /eps/${id} | id | Detail Anime's Episode |
+## Contributors
 
-## License
-[MIT](https://github.com/rakarmp/unofficial-otakudesu-api/blob/main/LICENSE)
+Special thanks to [TheStami](https://github.com/TheStami) for his contribution creating [One Content Column version](https://ticlekiwi.github.io/API-Documentation-HTML-Template/one-content-column) ! 
 
-## Disclaimer
-This project is not affiliated with otakudesu.cam in any way. This project is just a wrapper, so I am not responsible for anything related to the content of the website.
 
-## Support
-If you like this project, please support me by giving a star ⭐️ for this repository. Thank you 😊
+## Contribute
+
+We're always looking for:
+
+* Bug reports, especially those for aspects with a reduced test case
+* Pull requests for features, spelling errors, clarifications, etc.
+* Ideas for enhancements
