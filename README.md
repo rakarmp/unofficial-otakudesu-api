@@ -13,7 +13,7 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rakarmp/unofficial-otakudesu-api">
 </p>
 
-**Unofficial API of** : https://otakudesu.media/ </br>
+**Unofficial API of** : https://otakudesu.cloud/ </br>
 **Api Documentation** : https://rakarmp.github.io/unofficial-otakudesu-api/ </br>
 **Rest API** : https://unofficial-otakudesu-api-me.vercel.app/api/
 
