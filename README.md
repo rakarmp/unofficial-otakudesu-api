@@ -15,7 +15,7 @@
 
 **Unofficial API of** : https://otakudesu.cloud/ </br>
 **Api Documentation** : https://rakarmp.github.io/unofficial-otakudesu-api/ </br>
-**Rest API** : https://unofficial-otakudesu-api-me.vercel.app/api/
+**Rest API** : https://unofficial-otakudesu-api-ruang-kreatif.vercel.app/api/
 
 ## Usage
 1. Clone this repository
